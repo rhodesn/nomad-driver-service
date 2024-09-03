@@ -3,8 +3,6 @@
 
 log_level = "TRACE"
 
-plugin "hello-driver" {
-  config {
-    shell = "bash"
-  }
+plugin "systemd-driver" {
+  config {}
 }
